@@ -1,6 +1,6 @@
-## NestJS中swagger接口文档编写
+## NestJS 中 swagger 接口文档编写
 
-### 安装nest
+### 安装 nest
 
 - yarn global add @nestjs/cli 或者 npm i -g @nestjs/cli
 
@@ -19,13 +19,13 @@
 ### 创建新模块
 
 - nest g lib 模块名
-  - (default @app)默认别名app -> 可修改@libs(@libs为新别名)
+  - (default @app)默认别名 app -> 可修改@libs(@libs 为新别名)
 
-### 安装MongoDb数据库(针对ts)
+### 安装 MongoDb 数据库(针对 ts)
 
 - yarn add nestjs-typegoose @typegoose/typegoose
 
-### 安装mongoose
+### 安装 mongoose
 
 - yarn add mongoose @types/mongoose
 
@@ -45,3 +45,12 @@
 
 - yarn add @nestjs/swagger swagger-ui-express
 
+### 策略配置
+
+- 策略包安装 yarn add @nestjs/passport passport passport-jwt passport-local
+  - @nestjs/passport nestJS 支持
+  - passport nodeJS 支持
+  - passport-jwt jst 策略
+  - passport-local local 本地策略
+- bcryptjs/passport/passport-jwt/passport-local TS 语法提示支持
+  yarn add -D @types/bcryptjs @types/passport @types/passport-jwt @types/passport-local
